@@ -31,7 +31,7 @@ class App:
         self.master=master
         self.master.geometry("345x550")
         self.master.title("Veikals")
-        self.master.configure(background="grey")
+        self.master.configure(background="#89776b")
         self.cart=ShoppingCart()
 
         input_frame = tk.Frame(master)
